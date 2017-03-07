@@ -1,0 +1,57 @@
+@charset "UTF-8"
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#inicio{
+	width: 300px;
+	height: 200px;
+}
+
+input:hover {
+	background-color: #f6f6f6;
+}
+
+fieldset {
+	border-color: green;
+}
+
+fieldset legend {
+	color: green;
+}
+
+input#enviar {
+	width: 80px;
+	margin: 10px;	 
+}
+
+
+div#inicio {
+	border: none;
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	box-shadow: 2px 2px 2px #c6c6c6;
+	position: relative; /*não depende dos outros elementos da pagina*/
+	top: 250px;
+	left: 650px;
+}
+
+
+#tabela1 tr td a {
+	color: black;
+	text-decoration: none;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	font-family: Arial;
+	font-size: 20px;
+
+}
+
+#tabela1 tr td a:hover {
+	color: white;
+}
